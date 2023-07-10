@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Primary css here */
+.text-center{
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.btn-primary{
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Lato',sans-serif;
+}
+/* Header css here */
+.header{
+    background: #E554731A;
+    
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text{
+    margin-left: 100px;
+}
+.header-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Lato',sans-serif;
+}
+.header-description{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato',sans-serif;
+    line-height: 30px;
+}
+.img img{
+    width: 450px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+/* Main Css here */
+
+/* Feature css here */
+.feature{
+    margin-top: 120px;
+}
+.feature-title{
+    font-family: 'Lato',sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.feature-description{
+    margin-top: 24px;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.feature-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    margin-top: 20px;
+}
+.inner-card-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 35px;
+}
+.inner-card-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    height: 410px;
+    padding: 35px;
+}
+.inner-card-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 30px;
+}
+.fimg{
+    width: 250px;
+    
+}
+.delivery{
+    margin-top: 150px;
+    padding: 35px;
+
+}
+.ic{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #2727270D;
+    border: none;
+    border-radius: 8px;
+}
+.d-info{
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/* Deal css here */
+
+.deal{
+    margin-top: 120px;
+}
+.deal-content{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+}
+.deal-text{
+    padding: 25px;
+    text-align: center;
+}
+.deal-title{
+    font-family: 'Lato',sans-serif;
+}
+.deal-description{
+    font-family: 'Lato',sans-serif;
+    margin-top: 10px;
+}
+.mt{
+    margin-top: 5px;
+}
+.pink{
+    color: #E55473;
+}
+.deal-img img{
+    width: 250px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-right: 80px;
+}
+/* Instagram css here */
+.instagram{
+    margin-top: 120px;
+}
+.insta-grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+.insta-grid img{
+    width: 250px;
+}
+/* News Latter css here */
+
+.news{
+    margin-top: 120px;
+    padding: 45px;
+    font-family: 'Lato',sans-serif;
+    text-align: center;
+}
+.news-content{
+    border: none;
+    background: url("../Flower Asset/Rectangle\ 9.png");
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 35px;
+    height: 250px;
+}
+.news-title{
+    text-align: center;
+
+}
+.news-description{
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+}
+form{
+    margin-top: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+}
+input[type="email"]{
+    border: none;
+    width: 55%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 350px;
+}
+/* Footer css here */
+.footer{
+    background: #111010;
+    padding: 150px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-family: 'Lato',sans-serif;
+    height: 350px;
+}
+h3{
+    font-size: 40px;
+}
